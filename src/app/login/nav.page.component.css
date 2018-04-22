@@ -1,0 +1,27 @@
+.nav-container{
+  overflow-y: auto;
+  height:100%;
+}
+li.parent_menu>p{
+  height:40px;
+  font-size:14px;
+  line-height: 40px;
+  text-align: center;
+  background:blue;
+  color:#fff;
+}
+li.parent_menu>p:hover{
+  background: darkblue;
+  cursor: pointer;
+}
+li.child_menu{
+  height:35px;
+  font-size:13px;
+  line-height: 35px;
+  text-align: center;
+  background:green;
+}
+li.child_menu:hover{
+  background: darkgreen;
+  cursor: pointer;
+}

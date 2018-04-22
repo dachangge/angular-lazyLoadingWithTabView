@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import "~bootstrap/dist/css/bootstrap.min.css";*/
+@import "~wijmo/styles/wijmo.css";
+html.body.h1,h2,h3,h4,h5,h6,p,ul,li{
+  padding:0;
+  margin:0;
+}
+ul,li{
+  list-style: none;
+}
+
+
+.wj-flexgrid{
+  max-width:calc(100vw - 220px)
+}
+ul.nav.hiddentitle{
+  display: none;
+}
+.input-group-addon{
+  min-width:60px;
+  text-align:right;
+}
